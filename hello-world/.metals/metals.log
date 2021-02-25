@@ -1,0 +1,349 @@
+[0m2021.02.23 16:23:18 INFO  Started: Metals version 0.9.10 in workspace '/Users/rjm/Documents/v2/scala/test1/hello-world' for client vscode 1.53.2.[0m
+[0m2021.02.23 16:23:20 INFO  time: initialize in 1.93s[0m
+[0m2021.02.23 16:23:21 WARN  Build server is not auto-connectable.[0m
+[0m2021.02.23 16:23:21 WARN  no build target for: /Users/rjm/Documents/v2/scala/test1/hello-world/build.sbt[0m
+[0m2021.02.23 16:23:26 INFO  no build target: using presentation compiler with only scala-library[0m
+[0m2021.02.23 16:23:26 INFO  running '/Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/zd/kqch8p3d2q11jzhf0glqgfw00000gn/T/metals4498332715095825294/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.02.23 16:23:27 WARN  no build target for: /Users/rjm/Documents/v2/scala/test1/hello-world/project/metals.sbt[0m
+[0m2021.02.23 16:23:27 WARN  no build target for: /Users/rjm/Documents/v2/scala/test1/hello-world/project/project/metals.sbt[0m
+[0m2021.02.23 16:23:27 WARN  Unable to produce semanticdb for /Users/rjm/Documents/v2/scala/test1/hello-world/project/project/metals.sbt[0m
+[0m2021.02.23 16:23:27 WARN  Unable to produce semanticdb for /Users/rjm/Documents/v2/scala/test1/hello-world/project/metals.sbt[0m
+[0m2021.02.23 16:23:27 INFO  skipping build import with status 'Started'[0m
+[0m2021.02.23 16:23:27 ERROR [info] [launcher] getting org.scala-sbt sbt 1.4.7  (this may take some time)...[0m
+[0m2021.02.23 16:23:33 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/sbt/1.4.7/sbt-1.4.7.jar ...[0m
+[0m2021.02.23 16:23:33 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.4.7/main_2.12-1.4.7.jar ...[0m
+[0m2021.02.23 16:23:33 ERROR :: loading settings :: url = jar:file:/private/var/folders/zd/kqch8p3d2q11jzhf0glqgfw00000gn/T/metals4498332715095825294/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.02.23 16:23:33 ERROR :: loading settings :: url = jar:file:/private/var/folders/zd/kqch8p3d2q11jzhf0glqgfw00000gn/T/metals4498332715095825294/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.02.23 16:23:33 ERROR :: loading settings :: url = jar:file:/private/var/folders/zd/kqch8p3d2q11jzhf0glqgfw00000gn/T/metals4498332715095825294/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.02.23 16:23:33 ERROR :: loading settings :: url = jar:file:/private/var/folders/zd/kqch8p3d2q11jzhf0glqgfw00000gn/T/metals4498332715095825294/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.02.23 16:23:33 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/logic_2.12/1.4.7/logic_2.12-1.4.7.jar ...[0m
+[0m2021.02.23 16:23:33 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.4.7/actions_2.12-1.4.7.jar ...[0m
+[0m2021.02.23 16:23:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#logic_2.12;1.4.7!logic_2.12.jar (126ms)[0m
+[0m2021.02.23 16:23:33 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.4.7/main-settings_2.12-1.4.7.jar ...[0m
+[0m2021.02.23 16:23:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#sbt;1.4.7!sbt.jar (193ms)[0m
+[0m2021.02.23 16:23:33 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/run_2.12/1.4.7/run_2.12-1.4.7.jar ...[0m
+[0m2021.02.23 16:23:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#actions_2.12;1.4.7!actions_2.12.jar (192ms)[0m
+[0m2021.02.23 16:23:33 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/command_2.12/1.4.7/command_2.12-1.4.7.jar ...[0m
+[0m2021.02.23 16:23:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#run_2.12;1.4.7!run_2.12.jar (99ms)[0m
+[0m2021.02.23 16:23:33 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.4.7/collections_2.12-1.4.7.jar ...[0m
+[0m2021.02.23 16:23:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#main-settings_2.12;1.4.7!main-settings_2.12.jar (158ms)[0m
+[0m2021.02.23 16:23:33 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/scripted-plugin_2.12/1.4.7/scripted-plugin_2.12-1.4.7.jar ...[0m
+[0m2021.02.23 16:23:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#command_2.12;1.4.7!command_2.12.jar (136ms)[0m
+[0m2021.02.23 16:23:33 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-lm-integration_2.12/1.4.7/zinc-lm-integration_2.12-1.4.7.jar ...[0m
+[0m2021.02.23 16:23:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#main_2.12;1.4.7!main_2.12.jar (372ms)[0m
+[0m2021.02.23 16:23:33 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.4.7/util-logging_2.12-1.4.7.jar ...[0m
+[0m2021.02.23 16:23:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#scripted-plugin_2.12;1.4.7!scripted-plugin_2.12.jar (89ms)[0m
+[0m2021.02.23 16:23:33 ERROR downloading https://repo1.maven.org/maven2/io/get-coursier/lm-coursier-shaded_2.12/2.0.6/lm-coursier-shaded_2.12-2.0.6.jar ...[0m
+[0m2021.02.23 16:23:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#collections_2.12;1.4.7!collections_2.12.jar (126ms)[0m
+[0m2021.02.23 16:23:33 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.4.7/util-relation_2.12-1.4.7.jar ...[0m
+[0m2021.02.23 16:23:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-lm-integration_2.12;1.4.7!zinc-lm-integration_2.12.jar (82ms)[0m
+[0m2021.02.23 16:23:33 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.4.7/util-position_2.12-1.4.7.jar ...[0m
+[0m2021.02.23 16:23:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-logging_2.12;1.4.7!util-logging_2.12.jar (95ms)[0m
+[0m2021.02.23 16:23:33 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/completion_2.12/1.4.7/completion_2.12-1.4.7.jar ...[0m
+[0m2021.02.23 16:23:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-relation_2.12;1.4.7!util-relation_2.12.jar (83ms)[0m
+[0m2021.02.23 16:23:33 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/task-system_2.12/1.4.7/task-system_2.12-1.4.7.jar ...[0m
+[0m2021.02.23 16:23:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-position_2.12;1.4.7!util-position_2.12.jar (82ms)[0m
+[0m2021.02.23 16:23:33 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/tasks_2.12/1.4.7/tasks_2.12-1.4.7.jar ...[0m
+[0m2021.02.23 16:23:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#completion_2.12;1.4.7!completion_2.12.jar (82ms)[0m
+[0m2021.02.23 16:23:33 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/testing_2.12/1.4.7/testing_2.12-1.4.7.jar ...[0m
+[0m2021.02.23 16:23:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#task-system_2.12;1.4.7!task-system_2.12.jar (92ms)[0m
+[0m2021.02.23 16:23:33 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-tracking_2.12/1.4.7/util-tracking_2.12-1.4.7.jar ...[0m
+[0m2021.02.23 16:23:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#tasks_2.12;1.4.7!tasks_2.12.jar (104ms)[0m
+[0m2021.02.23 16:23:33 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.4.7/util-control_2.12-1.4.7.jar ...[0m
+[0m2021.02.23 16:23:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#testing_2.12;1.4.7!testing_2.12.jar (101ms)[0m
+[0m2021.02.23 16:23:33 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.4.7/util-interface-1.4.7.jar ...[0m
+[0m2021.02.23 16:23:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-tracking_2.12;1.4.7!util-tracking_2.12.jar (92ms)[0m
+[0m2021.02.23 16:23:33 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.4.7/core-macros_2.12-1.4.7.jar ...[0m
+[0m2021.02.23 16:23:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-control_2.12;1.4.7!util-control_2.12.jar (88ms)[0m
+[0m2021.02.23 16:23:33 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.4.7/util-cache_2.12-1.4.7.jar ...[0m
+[0m2021.02.23 16:23:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-interface;1.4.7!util-interface.jar (68ms)[0m
+[0m2021.02.23 16:23:33 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.4.7/test-agent-1.4.7.jar ...[0m
+[0m2021.02.23 16:23:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#core-macros_2.12;1.4.7!core-macros_2.12.jar (91ms)[0m
+[0m2021.02.23 16:23:33 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/protocol_2.12/1.4.7/protocol_2.12-1.4.7.jar ...[0m
+[0m2021.02.23 16:23:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#test-agent;1.4.7!test-agent.jar (67ms)[0m
+[0m2021.02.23 16:23:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-cache_2.12;1.4.7!util-cache_2.12.jar (92ms)[0m
+[0m2021.02.23 16:23:33 ERROR 	[SUCCESSFUL ] io.get-coursier#lm-coursier-shaded_2.12;2.0.6!lm-coursier-shaded_2.12.jar (449ms)[0m
+[0m2021.02.23 16:23:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#protocol_2.12;1.4.7!protocol_2.12.jar (110ms)[0m
+[0m2021.02.23 16:23:33 ERROR :: retrieving :: org.scala-sbt#boot-app[0m
+[0m2021.02.23 16:23:33 ERROR 	confs: [default][0m
+[0m2021.02.23 16:23:34 ERROR 	84 artifacts copied, 0 already retrieved[0m
+[0m2021.02.23 16:23:36 INFO  [info] welcome to sbt 1.4.7 (Oracle Corporation Java 11.0.10)[0m
+[0m2021.02.23 16:23:38 INFO  [info] loading settings for project hello-world-build-build from metals.sbt ...[0m
+[0m2021.02.23 16:23:38 INFO  [info] loading project definition from /Users/rjm/Documents/v2/scala/test1/hello-world/project/project[0m
+[0m2021.02.23 16:23:43 INFO  [info] loading settings for project hello-world-build from metals.sbt ...[0m
+[0m2021.02.23 16:23:43 INFO  [info] loading project definition from /Users/rjm/Documents/v2/scala/test1/hello-world/project[0m
+[0m2021.02.23 16:23:49 INFO  [success] Generated .bloop/hello-world-build.json[0m
+[0m2021.02.23 16:23:49 INFO  [success] Total time: 5 s, completed 23 Feb 2021, 16:23:49[0m
+[0m2021.02.23 16:23:50 INFO  [info] loading settings for project hello-world from build.sbt ...[0m
+[0m2021.02.23 16:23:50 INFO  [info] set current project to hello-world (in build file:/Users/rjm/Documents/v2/scala/test1/hello-world/)[0m
+[0m2021.02.23 16:23:51 INFO  [success] Generated .bloop/hello-world.json[0m
+[0m2021.02.23 16:23:51 INFO  [success] Generated .bloop/hello-world-test.json[0m
+[0m2021.02.23 16:23:51 INFO  [success] Total time: 1 s, completed 23 Feb 2021, 16:23:51[0m
+[0m2021.02.23 16:23:51 INFO  sbt bloopInstall exit: 0[0m
+[0m2021.02.23 16:23:51 INFO  time: ran 'sbt bloopInstall' in 25s[0m
+[0m2021.02.23 16:23:51 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/zd/kqch8p3d2q11jzhf0glqgfw00000gn/T/bsp-launcher17309278155330755344/bsp.socket'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.6-21-464e4ec4...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from '/Users/rjm/Documents/v2/scala/test1/hello-world/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/rjm/Documents/v2/scala/test1/hello-world/.bloop/hello-world.json'
+[0m[32m[D][0m Loading project from '/Users/rjm/Documents/v2/scala/test1/hello-world/.bloop/hello-world-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => /Users/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /Users/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.15.0/jline-3.15.0.jar
+[0m[32m[D][0m   => /Users/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.3/scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => /Users/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3.jar
+[0m[32m[D][0m   => /Users/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.3/scala-reflect-2.13.3.jar
+[0m[32m[D][0m Missing analysis file for project 'hello-world'
+[0m[32m[D][0m Missing analysis file for project 'hello-world-test'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/zd/kqch8p3d2q11jzhf0glqgfw00000gn/T/bsp-launcher17309278155330755344/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/zd/kqch8p3d2q11jzhf0glqgfw00000gn/T/bsp-launcher17309278155330755344/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.02.23 16:23:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/rjm/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.02.23 16:24:00 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/zd/kqch8p3d2q11jzhf0glqgfw00000gn/T/bsp-launcher18276843688716977218/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/zd/kqch8p3d2q11jzhf0glqgfw00000gn/T/bsp-launcher18276843688716977218/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/zd/kqch8p3d2q11jzhf0glqgfw00000gn/T/bsp-launcher18276843688716977218/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.02.23 16:24:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/rjm/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.02.23 16:24:00 INFO  time: connected to build server in 8.77s[0m
+[0m2021.02.23 16:24:00 INFO  Connected to Build server v1.4.6-21-464e4ec4[0m
+[0m2021.02.23 16:24:00 INFO  time: imported build in 0.12s[0m
+[0m2021.02.23 16:24:05 INFO  time: indexed workspace in 4.72s[0m
+[0m2021.02.23 16:31:40 INFO  compiling hello-world (1 scala source)[0m
+[0m2021.02.23 16:31:49 WARN  no build target for: /Users/rjm/Documents/v2/scala/test1/hello-world/project/metals.sbt[0m
+[0m2021.02.23 16:31:51 INFO  time: compiled hello-world in 10s[0m
+Feb 24, 2021 4:29:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 61
+Feb 24, 2021 4:29:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 68
+Feb 24, 2021 4:29:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 85
+Feb 24, 2021 4:30:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 127
+Feb 24, 2021 4:30:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 134
+[0m2021.02.24 16:30:45 ERROR code navigation does not work for the file '/Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Second.scala' because the build target hello-world is being compiled. Wait until compilation is finished and try again.[0m
+[0m2021.02.24 16:30:45 ERROR code navigation does not work for the file '/Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Second.scala' because the build target hello-world is being compiled. Wait until compilation is finished and try again.[0m
+[0m2021.02.24 16:31:14 ERROR code navigation does not work for the file '/Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/First.scala' because the build target hello-world is being compiled. Wait until compilation is finished and try again.[0m
+[0m2021.02.24 16:31:14 ERROR code navigation does not work for the file '/Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/First.scala' because the build target hello-world is being compiled. Wait until compilation is finished and try again.[0m
+Feb 24, 2021 4:31:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 271
+Feb 24, 2021 4:31:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 278
+Feb 24, 2021 4:33:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 491
+Feb 24, 2021 4:33:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 497
+Feb 24, 2021 4:35:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 602
+something's wrong: no file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala in Array[Int]RangePosition(file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala, 294, 294, 304)
+Feb 25, 2021 12:33:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 878
+Feb 25, 2021 12:33:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 991
+Feb 25, 2021 12:35:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1115
+Feb 25, 2021 12:46:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1892
+Feb 25, 2021 12:46:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1922
+something's wrong: no file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala in List[<error>]RangePosition(file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala, 485, 485, 499)
+something's wrong: no file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala in List[<error>]RangePosition(file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala, 485, 485, 492)
+something's wrong: no file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala in List[<error>]RangePosition(file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala, 485, 485, 494)
+something's wrong: no file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala in List[Ticket]RangePosition(file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala, 485, 485, 497)
+something's wrong: no file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala in List[<error>]RangePosition(file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala, 514, 514, 528)
+something's wrong: no file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala in List[<error>]RangePosition(file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala, 514, 514, 521)
+something's wrong: no file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala in List[Int]RangePosition(file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala, 514, 514, 523)
+something's wrong: no file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala in List[Int]RangePosition(file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala, 514, 514, 523)
+something's wrong: no file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala in List[Int]RangePosition(file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala, 514, 514, 523)
+something's wrong: no file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala in List[Ticket]RangePosition(file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala, 540, 540, 552)
+something's wrong: no file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala in List[Ticket]RangePosition(file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala, 488, 488, 500)
+Feb 25, 2021 2:37:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3769
+something's wrong: no file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala in List[Int]RangePosition(file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala, 637, 637, 646)
+Feb 25, 2021 4:13:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5723
+Feb 25, 2021 4:25:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5926
+Feb 25, 2021 4:25:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5995
+something's wrong: no file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala in List[<error>]RangePosition(file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala, 145, 145, 159)
+something's wrong: no file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala in List[<error>]RangePosition(file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala, 145, 145, 152)
+something's wrong: no file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala in List[<error>]RangePosition(file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala, 145, 145, 153)
+something's wrong: no file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala in List[<error>]RangePosition(file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala, 145, 145, 154)
+something's wrong: no file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala in List[Draw]RangePosition(file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala, 145, 145, 155)
+something's wrong: no file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala in List[Draw]RangePosition(file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala, 145, 145, 155)
+something's wrong: no file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala in List[Draw]RangePosition(file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala, 145, 145, 155)
+Feb 25, 2021 4:27:55 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Feb 25, 2021 4:27:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:136)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+something's wrong: no file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala in List[Ticket]RangePosition(file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala, 270, 270, 282)
+something's wrong: no file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala in List[Draw]RangePosition(file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala, 145, 145, 155)
+Feb 25, 2021 4:30:24 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Feb 25, 2021 4:30:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:136)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+Feb 25, 2021 5:07:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7293
+Feb 25, 2021 5:16:11 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Feb 25, 2021 5:16:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:136)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+Feb 25, 2021 5:16:13 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Feb 25, 2021 5:16:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:136)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:239)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:26)
+
+Feb 25, 2021 5:17:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8360
+Feb 25, 2021 5:33:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8793
+Feb 25, 2021 5:33:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8865
+Feb 25, 2021 5:34:18 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Feb 25, 2021 5:34:19 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Feb 25, 2021 5:34:19 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Feb 25, 2021 5:34:19 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Feb 25, 2021 5:42:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8977
+Feb 25, 2021 5:59:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9266
+something's wrong: no file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala in Map[Int,Draw]RangePosition(file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala, 308, 308, 321)
+Feb 25, 2021 6:10:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9741

@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/rjm/Documents/v2/scala/test1/hello-world/target/scala-2.13/hello-world_2.13-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Demo$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/rjm/Documents/v2/scala/test1/hello-world/target/scala-2.13/classes/Demo$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	System.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/rjm/Documents/v2/scala/test1/hello-world/target/scala-2.13/classes/System.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Demo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/rjm/Documents/v2/scala/test1/hello-world/target/scala-2.13/classes/Demo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Draw.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/rjm/Documents/v2/scala/test1/hello-world/target/scala-2.13/classes/Draw.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Ticket.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/rjm/Documents/v2/scala/test1/hello-world/target/scala-2.13/classes/Ticket.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
