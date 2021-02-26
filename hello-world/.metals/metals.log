@@ -347,3 +347,5 @@ WARNING: Unmatched cancel notification for request id 9266
 something's wrong: no file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala in Map[Int,Draw]RangePosition(file:///Users/rjm/Documents/v2/scala/test1/hello-world/src/main/scala/Main.scala, 308, 308, 321)
 Feb 25, 2021 6:10:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 9741
+[0m2021.02.25 18:41:44 INFO  shutting down Metals[0m
+No more data in the client stdin, exiting...
