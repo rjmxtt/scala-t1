@@ -3,45 +3,29 @@ import java.io._
 object Main {
    def main(args: Array[String]) {
 
-    var s = new System() 
-    val random = scala.util.Random
+    if ( args.length == 0 ) {
+      println("query result : run result <date> <customer id>")
+      println("count wins on day : run countWins <date>")
+    } else {
+      var s = new System() 
+      val random = scala.util.Random
 
-    for ( a <- 1 to 4 ) {
-      s.newDraw(a)
-      for ( b <- 1 to 99999 ) {
-        s.enter( b,  random.nextInt(999) )
+      for ( a <- 1 to 4 ) {
+        s.newDraw(a)
+        for ( b <- 1 to 99999 ) {
+          s.enter( b,  random.nextInt(999) )
+        }
+        s.playDate( a )
       }
-      s.playDate( a )
+
+      if (args(0) == "result") {
+        s.result( args(1).toInt , args(2).toInt )
+      }
+
+      if (args(0) == "countWins") {
+        println( s.lottery.get( args(1).toInt ).get.winners.length )
+      }
     }
-
-    if (args(0) == "result") {
-      s.result( args(1).toInt , args(2).toInt )
-    }
-
-    if (args(0) == "countWins") {
-      println( s.lottery.get( args(1).toInt ).get.winners.length )
-    }
-
-      // val t = new Test()
-      // val s = 
-      // println(t.setup().lottery)
-
-      // t.setup().result(1, 33)
-
-      // if (args(0) == "result") {
-      //   s.result(args(1), args(2))
-      // }
-
-      // s.newDraw(10004)
-
-        // s.enter(10,0)
-        // s.enter(11,1)
-        // s.enter(12,2)
-        // s.enter(13,3)
-      
-        // s.playToday() 
-
-        // s.result(100003,12)
    }
 }
 
@@ -95,22 +79,3 @@ class Ticket(
   val customer: Int,
   val number: Int
 )
-
-// class Test() {
-//   def setup() {
-
-//     var s = new System() 
-//     val random = scala.util.Random
-
-//     for ( a <- 1 to 4 ) {
-//       s.newDraw(a)
-//       for ( b <- 1 to 99999 ) {
-//         s.enter( b,  random.nextInt(999) )
-//       }
-//       s.playDate( a )
-//     }
-
-//     return s
-
-//   }
-// }
