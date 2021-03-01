@@ -1,8 +1,9 @@
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(run countWins 4, Some(b8b54c7d-bd0c-4e2e-b48a-835b481d0823), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(820a1022-55c8-44bd-b3c1-29af727548ab), Some(CommandSource(console0)))[0m
 [0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@70eb94d7, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@642614b7, check cycles: false, forcegc: true[0m
 [0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/rjm/Documents/v2/scala/test1/hello-world/target/scala-2.13/classes ...[0m
 [0m[[0m[33mwarn[0m] [0m[0m7 deprecations (since 2.13.0); re-run with -deprecation for details[0m
 [0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
-[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed 26 Feb 2021, 15:19:55[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed 26 Feb 2021, 15:25:09[0m
 [0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
